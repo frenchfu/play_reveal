@@ -4,8 +4,10 @@ import Note from '../Components/Notes/note';
 
 const TitleSlide = () => (
   <Slide>
-    <h2>使用程式寫報表 with Reveal.js (with React)</h2>
+    <h2>資服三課</h2>
+    <h2>傅炤棋 6582</h2>
     <p>David Fu</p>
+    <p>2023總結</p>
     <Note>
       <ul>
         <li>1</li>

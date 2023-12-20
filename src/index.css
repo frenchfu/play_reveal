@@ -90,3 +90,12 @@ aside {
   font-style: italic;
   font-size: 28px;
 }
+
+
+/* 在你的 CSS 文件中添加這個樣式規則 */
+.h2-list {
+  text-align: left;
+  list-style-type: disc;
+  margin-left: 20px;
+  white-space: nowrap;
+}

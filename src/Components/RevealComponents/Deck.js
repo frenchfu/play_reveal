@@ -18,7 +18,7 @@ const Deck = ({ children }) => {
   return (
     <div className="reveal">
       <div className="slides">{children}</div>
-      <Author>Daviud.Fu  reference From @KatCodes</Author>
+      <Author>Daviud.Fu</Author>
     </div>
   );
 };

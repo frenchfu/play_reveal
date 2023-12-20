@@ -6,8 +6,8 @@ import Slides from './Slides';
 
 import './index.css';
 import './Themes/override.css';
-import 'reveal.js/dist/theme/sky.css'
-
+import 'reveal.js/dist/theme/beige.css';
+//import 'reveal.js/plugin/markdown/markdown.js';
 
 //const App = () => (
 //  <div className="App">
