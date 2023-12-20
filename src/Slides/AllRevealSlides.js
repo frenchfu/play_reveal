@@ -40,12 +40,12 @@ const AboutRevealSlides = () => (
       </Slide>
       <Slide transition="slide">
         <ul>
-          <li>
-            Very flexible HTML framework, so can be used with all your favourite
-            web libraries (like React)
-          </li>
-          <li>My demos will be using React, but this is optional!</li>
-          <li>No-code editor available online</li>
+        <li>
+          非常灵活的 HTML 框架，因此可以与所有您喜欢的 Web 库一起使用（例如 React）。
+        </li>
+        <li>我的演示将使用 React，但这是可选的！</li>
+        <li>在线提供无代码编辑器。</li>
+
         </ul>
         <Note>
           <ul>
@@ -64,37 +64,30 @@ const AboutRevealSlides = () => (
         </Note>
       </Slide>
       <SlideWithTitle transition="slide" title="Has lots of plugins built in">
-        <ul>
-          <li>Speaker notes</li>
-          <li>Code snippets</li>
-          <li>Markdown</li>
-          <li>Math</li>
-          <li>.. and allows you to build custom ones</li>
-        </ul>
-        <Note>
-          It has a bunch of plugins built in that allow all the usual features
-          of a presentation software plus some extra things
-        </Note>
+      <ul>
+        <li>演讲者备注</li>
+        <li>代码片段</li>
+        <li>Markdown</li>
+        <li>数学</li>
+        <li>.. 並允許您構建自定義的</li>
+      </ul>
+      <Note>
+        它內置了一堆插件，可以實現演示軟件的所有常見功能以及一些額外的功能。
+      </Note>
       </SlideWithTitle>
       <Slide transition="slide">
-        <h4>Accessibility</h4>
-        <Note>
-          <ul>
-            <li>I mean accessibility in two ways here:</li>
-            <li>
-              Firstly, if you build your slides following web accessibility
-              standards, then people that use screen readers can read all the
-              text on your slides by accessing the slides through their device
-              and have access to alt descriptions on things like images.
-            </li>
-            <li>
-              In another sense, if you opened up the slides on your phone,
-              hopefully it's obvious how easy it was to do that. No app
-              installations, signing in to things etc. It's just like accessing
-              a website
-            </li>
-          </ul>
-        </Note>
+      <h4>無障礙性</h4>
+      <Note>
+        <ul>
+          <li>在這裡，我提到無障礙性有兩個方面：</li>
+          <li>
+            首先，如果您按照 Web 無障礙性標準構建您的投影片，那麼使用屏幕閱讀器的人可以通過設備訪問投影片，並且可以閱讀幻燈片上的所有文本，並獲得關於圖片等內容的替代描述。
+          </li>
+          <li>
+            另一方面，如果您在手機上打開了投影片，希望您會發現這樣做是多麼簡單。無需安裝應用程式，不需要進行登錄等操作。這就像訪問網站一樣簡單。
+          </li>
+        </ul>
+      </Note>
       </Slide>
       <Slide transition="slide">
         <h4>Themes!</h4>
@@ -113,17 +106,34 @@ const AboutRevealSlides = () => (
           <img width="250px" src="image/themes/white.png" alt="White theme" />
         </Flex>
         <Note>
-          If you don't want to create your colour scheme and select font
-          pairings from scratch, there are some lovely themes built in
+            如果您不想從頭開始創建您的配色方案並選擇字體配對，系統內建了一些漂亮的主題。
         </Note>
       </Slide>
       <section data-auto-animate data-transition="zoom">
-        <h4>And of course...</h4>
+        <h4>當然還有...</h4>
       </section>
       <section data-auto-animate>
-        <h4>And of course...</h4>
-        <h4>Animations!</h4>
+        <h4>當然還有...</h4>
+        <h4>動畫效果！</h4>
       </section>
+      <section data-transition="fade">
+          <h4>動畫效果！!</h4>
+      </section>
+      <section data-transition="concave">
+        <h4>動畫效果！!!</h4>
+      </section>      
+      <section data-transition="zoom">
+        <h4>動畫效果！!!!</h4>
+      </section>
+      <section data-transition="rotate">
+        <h4>動畫效果！!!!!</h4>
+      </section>      
+      <section data-transition="none">
+        <h4>動畫效果！!!!!!</h4>
+      </section>   
+      <Note>
+            說說金城武的笑話?
+        </Note>    
     </Slide>
   </>
 );

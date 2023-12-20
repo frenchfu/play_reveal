@@ -90,6 +90,14 @@ const WhyUseSlides = () => {
             <aside>Credit: <Link href="https://codepen.io/triboot">https://freehtml5games.org/view/Tetris-Cube.html</Link></aside>
           </Game>
         </Slide>
+        <Slide data-state="stats">
+          <h4>
+            影片範例
+          </h4>
+          <section>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/IRvn36I9qbQ?si=nY0OCaW0LQF-n2Hz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </section>
+        </Slide>
       </Slide>
     </>
   );

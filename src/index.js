@@ -6,7 +6,7 @@ import Slides from './Slides';
 
 import './index.css';
 import './Themes/override.css';
-import 'reveal.js/dist/theme/moon.css'
+import 'reveal.js/dist/theme/sky.css'
 
 
 //const App = () => (
