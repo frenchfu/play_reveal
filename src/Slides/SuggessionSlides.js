@@ -33,6 +33,17 @@ const SuggessionSlides = () => (
                     src="image/pairProgramming.jpg"
                     alt="QR code that links to these slides"
                 />
+                <Note>
+                    <ul>
+                    <li></li>
+                    <li>提升程式碼品質</li>
+                    <li>提升知識傳播效率</li>
+                    <li>提升團隊運行效率</li>
+                    <li>增進團隊默契</li>
+                    <li>打算在新的工程師試試看</li>
+                    <li>開玩笑 老工程師可以只動口</li>
+                    </ul>
+            </Note>
         </Slide>
     </Slide>
   </>

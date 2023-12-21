@@ -10,12 +10,17 @@ const Box = styled.div`
 `;
 
 const codeOfNpos = `
-    @ApiOperation("importSupplier")
-    @Description("匯入供應商")
-    @PostMapping(value = "/importSupplier",consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
-    public String importSupplier(@RequestPart("file") MultipartFile file) throws Exception{
-        return vdgdpService.importSuppliers(file);
-    }
+@ApiOperation("Checkout")
+@Description("CHECK_OUT_URL")
+@Encrypt
+@PostMapping(CheckoutController.CHECK_OUT_URL)
+public ResponseEntity<CheckoutResponse> checkout(HttpServletRequest request, @RequestBody @Decrypt CheckoutRequest requestBody) throws Exception {
+    log.info("Checkout Request seqNo => {}, sendTime => {}, orderNo => {}", requestBody.getSeqNo(), requestBody.getSendTime(), requestBody.getOrderNo()); 
+    
+    CheckoutResponse resultResponse = checkoutService.doCheckoutAccount(requestBody);
+    objectMapper.configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false);
+    return ResponseEntity.ok(resultResponse);
+}
 `;
 
 const GrowUpSlides = () => (

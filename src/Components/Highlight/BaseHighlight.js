@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const BaseHighlight = ({ code = '', language }) => (
   <Highlight {...defaultProps} language={language} code={code} >
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
-      <pre className={className} style={style}>
+      <pre className={className} style={{...style, width: '100vw'}}>
         {tokens.map((line, i) => (
           <div {...getLineProps({ line, key: i })} data-line-numbers>
             {line.map((token, key) => (

@@ -11,6 +11,12 @@ const IndexSlides = () => (
         <h2 className="h2-list">• 自我成長</h2>
         <h2 className="h2-list">• 未來發展規劃</h2>
         <h2 className="h2-list">• 對部群建議與期許</h2>
+        <Note>
+        <ul>
+          <li>2</li>
+          <li>稍微看看主題有什麼好閒聊的</li>
+        </ul>
+      </Note>
     </Slide>
   </>
 );
